@@ -8,6 +8,7 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    background-image: url('/assets/milkyway-bg.jpg');
 }
 
 .site-title {
@@ -22,18 +23,22 @@
     &:visited {
         color: $grey-color-dark;
     }
+
+    img {
+        height: 40px;
+    }
 }
 
 .site-nav {
     float: right;
     line-height: 56px;
-
+    
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: $background-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -46,7 +51,7 @@
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
+        background-color: #f15959;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
@@ -65,7 +70,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $background-color;
                 }
             }
         }
@@ -180,7 +185,18 @@
     list-style: none;
 
     > li {
+        display: flex;
         margin-bottom: $spacing-unit;
+
+        img {
+            margin-top: 5px;
+            margin-right: 18px;
+            height: 48px;
+            display: inline-block;
+        }
+    }
+    div.info {
+        display: inline-block;
     }
 }
 
