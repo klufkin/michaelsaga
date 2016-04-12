@@ -173,6 +173,11 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    img {
+        max-height: 800px;
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 .page-heading {
