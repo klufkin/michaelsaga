@@ -4,7 +4,7 @@ title:  "Tiny Takedown"
 date:   2016-06-25 13:25:00
 categories: Story
 ---
-![picture]({{site.github.url}}/assets/160623-tinyTakedown.jpg)
+![picture]({{site.github.url}}/assets/160623-TinyTakedown.jpg)
 
 Mike encounters Dracky!!!
 
