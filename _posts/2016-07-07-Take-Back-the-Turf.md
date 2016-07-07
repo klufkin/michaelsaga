@@ -4,7 +4,7 @@ title:  "Take Back the Turf"
 date:   2016-07-06 21:30:00
 categories: Story
 ---
-![picture]({{site.github.url}}/assets/160704-TakebacktheTurf.jpg)
+![picture]({{site.github.url}}/assets/160704-TakebackTheTurf.jpg)
 
 After a nice EXP boost flattening the Drackster Michael is finally getting into his step. Beginning to get a handle on his new found MegaMan-esque blasting skills he’s ready to put them to work and take back some lost ground!
 
